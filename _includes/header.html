@@ -1,19 +1,45 @@
-<!-- Header -->
-<header id="header" class="skel-layers-fixed">
-    <h1><a href="{{ site.baseurl }}/" class="site-title" >{{ site.title }}</a></h1>
-    <nav id="nav">
-        <ul>
-            <li><a href="{{ site.baseurl }}/">Home</a></li>
-            <li><a href="{{ site.baseurl }}/left-sidebar.html">Left Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/right-sidebar.html">Right Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/no-sidebar.html">No Sidebar</a></li>
-            <li><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
-            {% for page in site.pages %}
-                  {% if page.title %}
-                    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                  {% endif %}
-            {% endfor %}
-            <li><a href="#" class="button special">Sign Up</a></li>
-        </ul>
-    </nav>
-</header>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Halse Aikidoclub Musashi</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Nieuws</a></li>
+         <li><a href="#">Lid worden?</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Club <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Over ons</a></li>
+            <li><a href="#">Bestuur</a></li>        
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Trainingen <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Trainingsuren</a></li>
+            <li><a href="#">Lesgever</a></li>           
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Aikido<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">O'Sensei</a></li>
+            <li><a href="#">Musashi</a></li>        
+            <li><a href="#">Dojo-etiquette</a></li>        
+            <li><a href="#">Uitrusting</a></li>        
+          </ul>
+        </li>
+      </ul>     
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
