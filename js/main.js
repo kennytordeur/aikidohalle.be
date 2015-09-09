@@ -17,7 +17,7 @@ jQuery(function($) {
 		});
 	});
 
-	$(fucntion(){
+	$(function(){
 		$('a.single_image').fancybox();
 	});
 
