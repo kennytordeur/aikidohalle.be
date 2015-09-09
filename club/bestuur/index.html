@@ -7,6 +7,19 @@ layout: default
 <p>
     Dit zijn de mensen die in het bestuur van de club zitten. Deze mensen zorgen ervoor
     dat de administratie van onze club op rolletjes lopen. Indien je met vragen zit
-    kan je de verantwoordelijke steeds aanspreken tijdens een <a href="{{site.baseurl}}/trainingen/trainingsuren">
-        les</a> of je kan ook een mail sturen naar {% include/ emailinfo.html %}.
-        </p>
+    kan je de verantwoordelijke steeds aanspreken tijdens een <a href="{{site.baseurl}}/trainingen/trainingsuren"> les</a> of je kan ook een mail sturen naar {% include/ emailinfo.html %}.
+</p>
+
+ <div class="gap"></div>
+
+        <div id="meet-the-team" class="row">
+
+{% for member in site.data.bestuur %}
+   				<div class="col-md-3 col-xs-6">
+	                <div class="center">
+	                    <p><img class="img-responsive img-thumbnail img-circle" src="{{site.baseurl}}/club/bestuur/team-member.jpg" alt="" ></p>
+	                    <h5>{{member.naam}}<small class="designation muted">{{member.functie}}</small></h5>	                    
+	                </div>
+            </div>       
+{% endfor %}                 
+        </div>
