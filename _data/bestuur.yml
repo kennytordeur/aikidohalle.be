@@ -1,17 +1,12 @@
-- naam: Kevin Tossijn
- functie: voorzitter
-
-- naam: Bjorn Merens
-  functie: voorzitter
-
-- naam: Sven Scheerlinck
-  functie: Penningmeester
-
-- naam: Kris Detobel
-  functie: pr
-
-- naam: Jonas Rongé
-  functie: bestuursmedewerker
-
-- naam: Kenny Tordeur
-  functie: bestuursmedewerker
+-naam: Kevin Tossijn
+functie: Voorzitter
+-naam: Bjorn Merens
+functie: Secretaris
+-naam: Sven Scheerlinck
+functie: Penningmeester
+-naam: Kris Detobel
+functie: PR
+-naam: Jonas Rongé
+functie: Bestuursmedewerker
+-naam: Kenny Tordeur
+functie: Bestuursmedewerker
