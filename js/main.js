@@ -17,6 +17,10 @@ jQuery(function($) {
 		});
 	});
 
+	$(fucntion(){
+		$('a.single_image').colorbox();
+	});
+
 	//portfolio
 	$(window).load(function(){
 		$portfolio_selectors = $('.portfolio-filter >li>a');
