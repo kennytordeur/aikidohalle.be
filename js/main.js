@@ -18,7 +18,7 @@ jQuery(function($) {
 	});
 
 	$(fucntion(){
-		$('a.single_image').colorbox();
+		$('a.single_image').fancybox();
 	});
 
 	//portfolio
