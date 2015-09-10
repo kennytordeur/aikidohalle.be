@@ -1,34 +1,42 @@
 ---
 layout: default
+title: Lesgevers
 ---
-<h1>
-    Lesgevers</h1>
-Hier vind je een overzicht van ons leraren korps.
+<section>
+  <div class="container">
+    <h2>
+        Lesgevers
+    </h2>
+    <p>
+      Hier vind je een overzicht van ons leraren korps.
+    </p>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Zaterdag lessen</h3>
-  </div>
-  <div class="panel-body">
-   {% include personen.html data='lesgeversKinderen' %}
-  </div>
-</div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Zaterdag lessen</h3>
+      </div>
+      <div class="panel-body">
+       {% include personen.html data='lesgeversKinderen' %}
+      </div>
+    </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Dinsdag lessen</h3>
-  </div>
-  <div class="panel-body">  
-   {% include personen.html data='lesgeversDinsdag' %}
-  </div>
-</div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Dinsdag lessen</h3>
+      </div>
+      <div class="panel-body">  
+       {% include personen.html data='lesgeversDinsdag' %}
+      </div>
+    </div>
 
-<div class="panel panel-default">
-  <div class="panel-heading">
-    <h3 class="panel-title">Donderdag lessen</h3>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h3 class="panel-title">Donderdag lessen</h3>
+      </div>
+      <div class="panel-body">  
+      Deze lessen worden afwisselend gegeven door 1 van de onderstaande lesgevers.
+       {% include personen.html data='lesgeversDonderdag' %}
+      </div>
+    </div>
   </div>
-  <div class="panel-body">  
-  Deze lessen worden afwisselend gegeven door 1 van de onderstaande lesgevers.
-   {% include personen.html data='lesgeversDonderdag' %}
-  </div>
-</div>
+</section>
