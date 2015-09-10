@@ -5,19 +5,20 @@ layout: default
     Lesgevers</h1>
 Hier vind je een overzicht van ons leraren korps.
 
-<div class="row">
-    <h2>
-        Zaterdag lessen
-    </h2>
-    {% include personen.html data='lesgeversKinderen' %}
-    
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Zaterdag lessen</h3>
+  </div>
+  <div class="panel-body">
+   {% include personen.html data='lesgeversKinderen' %}
+  </div>
 </div>
-<div class="row">
-    <h2>
-        Dindag en donderdag lessen
-    </h2>
-    <p>
-    Deze lessen worden door middel van een beurtrol verzorgt door deze personen.
-    </p>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Dinsdag en donderdag lessen</h3>
+  </div>
+  <div class="panel-body">
    {% include personen.html data='lesgeversVolwassenen' %}
+  </div>
 </div>
