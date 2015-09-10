@@ -12,12 +12,12 @@ layout: default
  
 
         <div id="meet-the-team" class="row">
-{% for member in site.data.bestuur %}
-   				<div class="col-md-3 col-xs-6">
-	                <div class="center">
-	                    <p><img class="img-responsive img-thumbnail img-circle" src="{{site.baseurl}}/club/bestuur/no_image.png" alt="" ></p>
-	                    <h5>{{member.naam}}<small class="designation muted">{{member.functie}}</small></h5>	                    
-	                </div>
+{% for member in site.data['bestuur'] %}
+                <div class="col-md-3 col-xs-6">
+                    <div class="center">
+                        <p><img class="img-responsive img-thumbnail img-circle" src="{{site.baseurl}}/images/no_image.png" alt="" ></p>
+                        <h5>{{member.naam}}<small class="designation muted">{{member.functie}}</small></h5>                     
+                    </div>
             </div>       
 {% endfor %}                 
         </div>
