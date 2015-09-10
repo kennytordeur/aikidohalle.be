@@ -18,6 +18,6 @@ include: ["club/bestuur",
 markdown: kramdown
 
 #eigen variabelen
-lidgeldKinderen: €50
+lidgeldkinderen: €50
 lidgeld: €140
 kortinglidgeld: €25
