@@ -2,7 +2,12 @@
 {% for member in site.data[include.data] %}
    				<div class="col-md-3 col-xs-6">
 	                <div class="center">
+
+	                	{% if(member.foto) %}
+	                	<p><img class="img-responsive img-thumbnail img-circle" src="{{site.baseurl}}{{member.foto}}" alt="" ></p>
+	                	{% else %}
 	                    <p><img class="img-responsive img-thumbnail img-circle" src="{{site.baseurl}}/images/no_image.png" alt="" ></p>
+	                    {% endif %}
 	                    <h5>{{member.naam}}<small class="designation muted">{{member.titel}}</small></h5>	                    
 	                </div>
             </div>       
