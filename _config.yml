@@ -16,3 +16,8 @@ include: ["club/bestuur",
 
 # Build settings
 markdown: kramdown
+
+#eigen variabelen
+lidgeldKinderen: €50
+lidgeld: €140
+kortinglidgeld: €25
