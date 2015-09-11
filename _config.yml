@@ -9,6 +9,7 @@ baseurl: "/aikidohalle" # the subpath of your site, e.g. /blog/
 url: "http://kennytordeur.github.io" # the base hostname & protocol for your site
 include: ["club/bestuur",
 			"club/overons",
+			"club/lidworden",
 			"trainingen/lesgevers",
 			"trainingen/verzekering",
 			"trainingen/trainingsuren"]
