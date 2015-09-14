@@ -13,7 +13,9 @@ include: ["club/bestuur",
 			"trainingen/lesgevers",
 			"trainingen/verzekering",
 			"trainingen/trainingsuren",
-			"aikido/watisaikido"]
+			"aikido/watisaikido",
+			"aikido/osensei",
+			"aikido/musashi"]
 
 
 # Build settings
