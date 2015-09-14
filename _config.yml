@@ -15,7 +15,8 @@ include: ["club/bestuur",
 			"trainingen/trainingsuren",
 			"aikido/watisaikido",
 			"aikido/osensei",
-			"aikido/musashi"]
+			"aikido/musashi",
+			"aikido/dojoetiquette"]
 
 
 # Build settings
