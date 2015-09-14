@@ -5,3 +5,7 @@ body > section {
 a {
    color: #d9534f;
 }
+
+.ident{
+	padding-left: 20px;	
+}
