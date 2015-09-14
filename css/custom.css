@@ -5,9 +5,3 @@ body > section {
 a {
    color: #d9534f;
 }
-
-.v-align {
-    float: none;
-    display: inline-block;
-    vertical-align: middle;
-}
