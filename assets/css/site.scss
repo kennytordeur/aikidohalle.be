@@ -1,0 +1,120 @@
+---
+# Jekyll automatically transpiles this file; access via {{site.url}}/assets/css/main.css
+---
+
+$primary-color: #3D72A4;
+$secondary-color: #000000;
+$thirth-color: #FFFFFF;
+
+@import 'font-awesome.min.css';
+@import url('https://fonts.googleapis.com/css?family=Merriweather:300,700,300italic,700italic|Source+Sans+Pro:900');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+
+body{
+    background-color: $thirth-color;
+    color: $secondary-color;    
+    font-family: sans-serif;
+    font-size: 15pt;
+    min-height: 100vh;
+}
+
+ul, li {
+    background-color: inherit;
+    color: inherit;
+}
+
+h1, h2, h3{
+    color: $primary-color;
+    font-style: italic;
+}
+
+a, a:hover {
+ color: $primary-color;
+ font-weight: bold;
+ text-decoration-line: underline;
+}
+
+a:hover{
+   
+}
+
+
+.navbar, .navbar-nav, .navbar-collapse{
+    background-color: $primary-color;
+}
+
+.nav-link{
+    background-color: $primary-color;
+
+}
+
+.nav-item {
+
+    .nav-link{
+        color:$thirth-color !important;
+        text-decoration-line: none;
+    }    
+}
+
+
+
+.nav-item:hover {
+
+    .nav-link{
+        color:darken($primary-color,50) !important;
+        text-decoration-line: none;
+    }    
+}
+
+.nav-item .active {
+
+    .nav-link{
+        color:darken($thirth-color, 50) !important;
+    }
+}
+
+.navbar-brand
+{
+    color:$thirth-color !important;
+    text-decoration-line: none;
+}
+
+
+.content-menu-fixed-top{
+    margin-top: 110px;
+}
+
+
+
+
+// https://www.colorcombos.com/color-schemes/67/ColorCombo67.html
+
+
+
+
+.map-container-5 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 500px;
+}
+
+.map-container-5 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.logo
+{
+    content: url(../img/logo.png);
+    background-color: transparent;
+}
+
+.musashi
+{
+    content: url(../img/musashi.png);
+}

@@ -1,24 +1,27 @@
----
-layout: default
----
-<div class="wrapper style1">
-    <article class="container">
+<!DOCTYPE HTML>
+<html lang="nl">
+
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include nav.html %}
+  <section id="content">
+    <div class="container">
+      <section class="post">
         <header class="major">
-            <h2 class="post-title">{{ page.title }}</h2>
-                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          <!-- <span class="date">{{page.date | date_to_string}}</span> -->
+          <h2>{{page.title}}</h2>
+          <!-- <p>{{page.excerpt}}</p> -->
         </header>
-
-        <section class="post-content">
-            {{ content }}
-        </section>
-        
-        <footer>
-            {% if page.previous %}
-            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
-            {% if page.next %}
-            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
-        </footer>
-
-    </article>
-
-</div>
+        <!-- <div class="image main"><img src="{{page.image}}" alt=""></div> -->
+        <p>{{content}}</p>
+      </section>
+    </div>
+  </section>
+  {% include foot.html %}
+  {% include scripts-main.html %}
+  {% include tracking.html %}
+</body>
+</html>

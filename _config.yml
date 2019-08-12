@@ -1,32 +1,75 @@
-# Site settings
-title: Aikido Musashi Halle
-email: info@aikidohalle.be
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
+# Site
+title:              Halse Aikidoclub Musashi
+bio:                ''
+description:        ""
+locale:             nl_BE
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.aikidohalle.be" # the base hostname & protocol for your site
-include: ["club/bestuur",
-			"club/overons",
-			"club/lidworden",
-			"trainingen/lesgevers",
-			"trainingen/verzekering",
-			"trainingen/trainingsuren",
-			"trainingen/examenprogramma",
-			"trainingen/uitrusting",
-			"aikido/watisaikido",
-			"aikido/osensei",
-			"aikido/musashi",
-			"aikido/dojoetiquette"]
 
+# Comments
+disqus_shortname:   default
 
-# Build settings
-markdown: kramdown
+# Social
+analytics-id:       "default"
+twitter:            default
+facebook:           default
+instagram:          default
+github:             default
+
+# personal
+location:           Los Angeles, CA
+phone:              310-318-5555
+email:              info@aikidohalle.be # change this to your email to receive free emails for your contact submissions via Slapform.com
+
+# Other
+background_image:   /images/bg.jpg
+# Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
+slapform_thankyou_page: /thank-you
+
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    author:
+
+# Jekyll
+permalink:          /blog/:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+mathjax:            true
+sass:
+  sass_dir:         _sass
+  style:            compressed
+
+# Gems
+gems:
+  - jekyll-mentions
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/blog/page:num/"
+
+jekyll-mentions:
+    base_url: https://github.com
+
+# Exclude list
+exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
 
 #eigen variabelen
-lidgeldkinderen: €50
-lidgeld: €140
-kortinglidgeld: €25
+lidgeldkinderen: €75
+lidgeld: €170
+kortinglidgeld: €20
 rekening: 979-6202313-41
-mededeling: lidgeld 2017-2018 + naam lid
+mededeling: lidgeld 2019-2020 + naam lid
