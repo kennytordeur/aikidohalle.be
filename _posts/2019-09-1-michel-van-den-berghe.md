@@ -7,7 +7,7 @@ image: /assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png
 
 ---
 
-<img class="img-fluid float-left mt-5 mr-5" src="{{'/assets/img/2019-08-12-start-seizoen/aikido_kanji.gif' | absoluteurl}}">
+<img class="img-fluid float-left mt-5 mr-5" src="{{'/assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png' | absoluteurl}}">
 
 <p>
 Op zaterdag 21-09-2019 komt Michel Van Den Berghe (7de Dan) een stage doen bij ons is de club. Deze stage zal doorgaan van 15u tot 17u in onze dojo. Dit beloofd een interessante stage te worden.
