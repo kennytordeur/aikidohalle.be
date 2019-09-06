@@ -6,9 +6,9 @@ excerpt: "Op 21-09-2019 kom Michel Van Den Berghe (7de Dan) een stage doen in on
 image: /assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png
 
 ---
-<div class="d-flex-wrap">
+<div class="d-flex flex-wrap">
     <div>
-        <img class="img-fluid mt-5 mr-5" src="{{'/assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png' | absoluteurl}}">
+        <img class="img-fluid mr-5" src="{{'/assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png' | absoluteurl}}">
     </div>
     <div>
         <p>
