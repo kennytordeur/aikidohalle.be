@@ -8,10 +8,10 @@ image: /assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png
 ---
 <div class="container">
 <div class="row">
-    <div class="col-2">
-        <img class="img-fluid mr-5" src="{{'/assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png' | absoluteurl}}">
+    <div class="col-md-2">
+        <img class="img-fluid mx-auto" src="{{'/assets/img/2019-09-1-michel-van-den-berghe/michel-van-den-berghe.png' | absoluteurl}}">
     </div>
-    <div class="col-10">
+    <div class="col-md-10">
         <p>
             Op zaterdag 21-09-2019 komt Michel Van Den Berghe (7de Dan) een stage doen bij ons is de club. Deze stage zal doorgaan van 15u tot 17u in onze dojo. Dit beloofd een interessante stage te worden.
         </p>
