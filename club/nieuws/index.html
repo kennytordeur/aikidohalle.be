@@ -16,7 +16,9 @@ description: Alle nieuwtje van de aikidoclub Musashi
 		<div class="row no-gutters">
 			{% if mod2 == 0 %}
 			<div class="col-md-4">
-				<img src="{{ post.image | absolute_url }}" style="height: 150px" class="card-img" alt="...">
+				<div class="nieuws-img-parent">
+					<img src="{{ post.image | absolute_url }}" class="card-img nieuws-img" alt="...">
+				</div>
 			</div>
 			{% endif %}
 			<div class="col-md-8">
@@ -32,8 +34,10 @@ description: Alle nieuwtje van de aikidoclub Musashi
 			</div>
 			{% if mod2 != 0 %}
 			<div class="col-md-4">
-				<img src="{{ post.image | absolute_url }}" class="card-img" alt="...">
-			</div>
+					<div class="nieuws-img-parent">
+						<img src="{{ post.image | absolute_url }}" class="card-img nieuws-img" alt="...">
+					</div>
+				</div>
 			{% endif %}
 		</div>
 	</article>
