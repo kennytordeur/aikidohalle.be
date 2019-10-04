@@ -31,12 +31,12 @@ defaults:
     path: ''
     type: posts
   values:
-    permalink: "/blog/:title/"
+    permalink: "/blog/:year/:month/:day/:title"
     layout: post
     author:
 
 # Jekyll
-permalink:          /blog/:title/
+permalink:          /blog/:year/:month/:day/:title
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
