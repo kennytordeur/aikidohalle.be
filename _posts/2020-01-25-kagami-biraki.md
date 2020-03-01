@@ -2,7 +2,7 @@
 layout: post
 title:  "25-01-2020 Kagami Biraki VAV"
 date:   2020-01-25
-excerpt: "Op zaterdag 25 januari komt de VAV naar onze dojo voor hun jaarlijkse Kagami Biraki. Deze les start om 14u en is gedaan om 17u"
+excerpt: "Op zaterdag 25 januari komt de VAV naar onze dojo voor hun jaarlijkse Kagami Biraki. Deze les start om 14u en is gedaan om 17u."
 image: /assets/img/2020-01-25-kagami-biraki/vav-small.png
 
 ---
