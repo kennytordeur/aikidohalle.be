@@ -2,7 +2,7 @@
 layout: post
 title:  "Stage 09-05-2020: Peter Van Marcke"
 date:   2020-04-01
-excerpt: "Op 28-03-2020 komt Peter Van Marcke (6de Dan) een stage doen in onze club."
+excerpt: "Op 09-05-2020 komt Peter Van Marcke (6de Dan) een stage doen in onze club."
 image: /assets/img/2020-05-09-peter-van-marcke/peter-van-marcke.jpg
 
 ---
