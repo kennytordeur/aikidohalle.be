@@ -68,8 +68,8 @@ jekyll-mentions:
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile, old]
 
 #eigen variabelen
-lidgeldkinderen: €75
-lidgeld: €170
+lidgeldkinderen: €90
+lidgeld: €185
 kortinglidgeld: €20
 rekening: BE88 9796 2023 1341
-mededeling: lidgeld 2019-2020 + naam lid
+mededeling: lidgeld 2021-2021 + naam lid
